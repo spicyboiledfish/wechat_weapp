@@ -17,9 +17,11 @@ Page({
   data: {
     userInfo: {},
     hasUserInfo: false,
- }
- ....
+  }
+  ...
 });
+```
+```
 this.setData({
     userInfo: res.userInfo,
     hasUserInfo: true
