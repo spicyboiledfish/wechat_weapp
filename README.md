@@ -11,5 +11,18 @@
 * wxss文件目前无法支持通配符 * 的使用
 
 ## 8.6 如何动态改变状态值：
-
+```
+Page({
+  //页面初始化数据：  
+  data: {
+    userInfo: {},
+    hasUserInfo: false,
+ }
+ ....
+});
+this.setData({
+    userInfo: res.userInfo,
+    hasUserInfo: true
+})
+```
     
