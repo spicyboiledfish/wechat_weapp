@@ -56,3 +56,9 @@ this.setData({
 ```
 background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
 ```
+* 循环遍历的结构写法：
+```
+<view wx:for="{{content-items}}">
+    ....		
+</view>
+```
