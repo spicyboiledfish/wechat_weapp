@@ -52,3 +52,7 @@ this.setData({
     1. 属性用url：（用于页面跳转）
     2. 属性redirect：是否替换到当前的页面（将路由栈清除，新添加了路由首页面）; 界面上就是左上角没有返回按钮了
     ```
+* 渐变色样式写法：
+```
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+```
