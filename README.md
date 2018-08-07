@@ -62,3 +62,10 @@ background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
     ....		
 </view>
 ```
+* 如何让一个盒子内两个子元素在横向布局中一个靠左一个靠右：
+```
+div{
+   display: flex;
+   justify-content: space-between;
+}
+```
