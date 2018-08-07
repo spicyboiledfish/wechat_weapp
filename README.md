@@ -27,4 +27,7 @@ this.setData({
     hasUserInfo: true
 })
 ```
-    
+## 8.7 常用的微信小程序组件使用：
+* 表单组件：button, checkbox, input, label, picker, radio, slider,switch,form
+* 基础组件：progress, icon, text, swiper, scroll-view, view
+* 操作反馈小工具：action-sheet, modal,toast, loading
