@@ -31,3 +31,24 @@ this.setData({
 * 表单组件：button, checkbox, input, label, picker, radio, slider,switch,form
 * 基础组件：progress, icon, text, swiper, scroll-view, view
 * 操作反馈小工具：action-sheet, modal,toast, loading
+* navigator跳转的两种方式：
+    1. 在wxml文件中的view中绑定事件，js文件中添加事件：
+    ```
+    bindViewTap:function(){
+	    wx.navigateTo({
+		    url:”../logs/logs”
+	    })
+    }
+    ```
+    2. 直接在wxml文件中直接在view外层用<navigator></navigator>进行包裹:
+    ```
+    <navigator url=“../logs/logs” redirect>
+	    <view>
+		    <text>按钮</text>
+	    </view>
+    </navigator>
+    ```
+    ```
+    1. 属性用url：（用于页面跳转）
+    2. 属性redirect：是否替换到当前的页面（将路由栈清除，新添加了路由首页面）; 界面上就是左上角没有返回按钮了
+    ```
