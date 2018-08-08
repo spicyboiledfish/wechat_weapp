@@ -69,3 +69,16 @@ div{
    justify-content: space-between;
 }
 ```
+* image组件：主要有两个属性
+     1. src：图片路径属性
+     2. mode：图片展示模式属性（scaleToFill 充满容器，会变形；aspectFit  保持原图比例，会有空白；3. aspectFill  保持原图比例，充满容器，只保证         图片的短边会完全显示）
+* audio音频组件：主要的两个属性
+     1. action：控制音频的播放、暂停、播放速率
+     2. src：音频资源的播放地址
+     ```
+     this.setData({
+	action: {
+		method:’play’     //播放（暂停是pause）
+	     }
+	})
+     ```
