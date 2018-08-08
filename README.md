@@ -84,3 +84,5 @@ div{
 	})
      ```
 ## 8.8 微信小程序API：
+* #### wx.playBackgroundAudio(object) 播放音频  
+* #### wx.pauseBackgroundAudio(object) 暂停音频
