@@ -87,5 +87,5 @@ div{
 * #### wx.playBackgroundAudio(object) 播放音频  
 * #### wx.pauseBackgroundAudio(object) 暂停音频
 * #### wx.removeStorage 删除key所对应的本地存储
-* #### wx.getStorage 获取key所对应的本地存储数据
-* #### wx.setStorage 设置key所对应的本地存储数据
+* #### wx.getStorage 获取key所对应的本地存储数据(异步)；同步的：wx.getStorageSync
+* #### wx.setStorage 设置key所对应的本地存储数据（异步）;同步的：wx.setStorageSync
