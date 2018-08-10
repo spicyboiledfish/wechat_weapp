@@ -89,3 +89,8 @@ div{
 * #### wx.removeStorage 删除key所对应的本地存储
 * #### wx.getStorage 获取key所对应的本地存储数据(异步)；同步的：wx.getStorageSync
 * #### wx.setStorage 设置key所对应的本地存储数据（异步）;同步的：wx.setStorageSync
+具体的API，微信小程序官网都有详细阐述：
+https://developers.weixin.qq.com/miniprogram/dev/api/network-request.html
+
+## 8.10 微信小程序开发过程中需要注意的要点：
+* Page目录下的页面的目录名和文件名要保持一致
