@@ -93,4 +93,4 @@ div{
 https://developers.weixin.qq.com/miniprogram/dev/api/network-request.html
 
 ## 8.10 微信小程序开发过程中需要注意的要点：
-* Page目录下的页面的目录名和文件名要保持一致
+* Page目录下的页面的目录名和文件名要保持一致：目录名为index,文件名为index.wxml, index.wxss, index.json, index.js
